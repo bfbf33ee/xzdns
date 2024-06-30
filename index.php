@@ -7,6 +7,8 @@
  * @author   Taylor Otwell <taylor@laravel.com>
  */
 
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
+
 define('LARAVEL_START', microtime(true));
 
 /*
@@ -34,9 +36,6 @@ require __DIR__ . '/src/vendor/autoload.php';
 | the responses back to the browser and delight our users.
 |
 */
-
-error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
-
 
 $app = require_once __DIR__ . '/src/bootstrap/app.php';
 
