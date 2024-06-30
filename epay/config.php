@@ -14,10 +14,10 @@ $alipay_config['partner']		= '1';
 //商户KEY
 $alipay_config['key']			= 'bUGZgko5XKD5vdF3c733zXPGB5kuNKF';
 
-$notify_url = "https://二级域名分发网站/epay/notify_url.php";
+$notify_url = "https://2j.bd1.cloudns.ch/epay/notify_url.php";
         //需http://格式的完整路径，不能加?id=123这类自定义参数
         //页面跳转同步通知页面路径
-$return_url = "https://二级域名分发网站/epay/return_url.php";
+$return_url = "https://2j.bd1.cloudns.ch/epay/return_url.php";
         //需http://格式的完整路径，不能加?id=123这类自定义参数，不能写成http://localhost/
 
 $con=mysqli_connect("mysql.sqlpub.com","xzdnsxzdns","56iJgJszssw8UBII","xzdnsxzdns","3306");//请配置链接数据库信息-数据库地址、数据库用户名、数据库密码、数据库名、数据库端口
