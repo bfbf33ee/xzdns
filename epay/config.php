@@ -20,7 +20,7 @@ $notify_url = "https://二级域名分发网站/epay/notify_url.php";
 $return_url = "https://二级域名分发网站/epay/return_url.php";
         //需http://格式的完整路径，不能加?id=123这类自定义参数，不能写成http://localhost/
 
-$con=mysqli_connect("ep-delicate-cake-a4og20z2.us-east-1.aws.neon.tech","default","NTzwR59oHOjA","verceldb","5432");//请配置链接数据库信息-数据库地址、数据库用户名、数据库密码、数据库名、数据库端口
+$con=mysqli_connect("mysql.sqlpub.com","xzdnsxzdns","56iJgJszssw8UBII","xzdnsxzdns","3306");//请配置链接数据库信息-数据库地址、数据库用户名、数据库密码、数据库名、数据库端口
 if (mysqli_connect_errno($con))
 {
     echo "连接失败: " . mysqli_connect_error();
