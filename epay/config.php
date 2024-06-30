@@ -6,13 +6,13 @@
 //↓↓↓↓↓↓↓↓↓↓请在这里配置您的基本信息↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
 
 //支付API地址
-$alipay_config['apiurl']    = 'https://pay.9mzf.cn/';
+$alipay_config['apiurl']    = 'https://pay.w0h.cn/';
 
 //商户ID
-$alipay_config['partner']		= '1120';
+$alipay_config['partner']		= '3513';
 
 //商户KEY
-$alipay_config['key']			= 'gp4Gwm8J5yxkNHrAqn6ea5Czdb7CVZf8';
+$alipay_config['key']			= 'nm68hpDyAPWFz8xkHgG51hjxfFhj7bnI';
 
 $notify_url = "https://2j.bd1.cloudns.ch/epay/notify_url.php";
         //需http://格式的完整路径，不能加?id=123这类自定义参数
